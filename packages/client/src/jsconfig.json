@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "~/*": [
+                "packages/client/src/*"
+            ],
+            "$/*": [
+                "packages/client/src/assets/*"
+            ]
+        }
+    }
+}

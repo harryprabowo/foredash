@@ -3103,6 +3103,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"babel-plugin-root-import@npm:^6.5.0":
+  version: 6.5.0
+  resolution: "babel-plugin-root-import@npm:6.5.0"
+  dependencies:
+    slash: ^3.0.0
+  checksum: 3/4ee660be886f5e2743ff5a32eddb9be445ce3bda0bd86d72cef0cb33a7310b9fe2679f3f056ac6cff28e4a39f5cc84b574207243ee26646c67a6f49a5e3dddf1
+  languageName: node
+  linkType: hard
+
 "babel-plugin-syntax-object-rest-spread@npm:^6.8.0":
   version: 6.13.0
   resolution: "babel-plugin-syntax-object-rest-spread@npm:6.13.0"
@@ -3914,6 +3923,7 @@ __metadata:
     "@testing-library/react": ^9.3.2
     "@testing-library/user-event": ^7.1.2
     axios: ^0.19.2
+    babel-plugin-root-import: ^6.5.0
     customize-cra: ^0.9.1
     formik: ^2.1.4
     node-sass: ^4.14.1
