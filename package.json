@@ -12,6 +12,9 @@
   },
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "client": "yarn workspace client start"
+  },
   "workspaces": [
     "packages/*"
   ]
