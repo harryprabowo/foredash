@@ -13,9 +13,14 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "client": "yarn workspace client start"
+    "client": "yarn workspace client start",
+    "start": "concurrently \"yarn client\""
   },
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "dependencies": {
+    "concurrently": "^5.2.0",
+    "node-sass": "^4.14.1"
+  }
 }
