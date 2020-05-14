@@ -1,0 +1,18 @@
+{
+  "name": "foredash",
+  "version": "1.0,0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/harryprabowo/foredash.git"
+  },
+  "author": {
+    "name": "Harry Prabowo",
+    "email": "harryprabowo10@gmail.com"
+  },
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}

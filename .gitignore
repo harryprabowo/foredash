@@ -1,0 +1,6 @@
+## Yarn v2 build files
+# Not using Zero-Installs
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+.pnp.*
