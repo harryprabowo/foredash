@@ -14,7 +14,7 @@
   "private": true,
   "scripts": {
     "client": "yarn workspace client start",
-    "start": "concurrently \"yarn client\""
+    "start": "concurrently --kill-others-on-fail \"yarn client\""
   },
   "workspaces": [
     "packages/*"

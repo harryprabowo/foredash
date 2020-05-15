@@ -2,7 +2,6 @@ const {
     override,
     addBabelPlugin,
 } = require("customize-cra");
-const rewireYarnWorkspaces = require('react-app-rewire-yarn-workspaces');
 
 module.exports = override(
     addBabelPlugin([
@@ -10,8 +9,12 @@ module.exports = override(
         {
             paths: [
                 {
-                    rootPathSuffix: "src",
-                    rootPathPrefix: "~"
+                    rootPathPrefix: "~",
+                    rootPathSuffix: "src"
+                },
+                {
+                    rootPathPrefix: "$",
+                    rootPathSuffix: "src/assets"
                 }
             ]
         }
